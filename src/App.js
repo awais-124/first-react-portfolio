@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from 'react';
+import './index.css';
 
-function App() {
+/* CHILD COMPONENTS IMPORTS */
+import Header from './Components/header/Header';
+import Footer from './Components/footer/Footer';
+import Nav from './Components/nav/Nav';
+import About from './Components/about/About';
+import Experience from './Components/experience/Experience';
+import Portfolio from './Components/portfolio/Portfolio';
+import Testimonial from './Components/testimonial/Testimonial';
+import Contact from './Components/contact/Contact';
+import Services from './Components/Services/Services';
+/*************************************/
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonial />
+      <Contact />
+      <Footer />
+    </React.Fragment>
   );
-}
+};
 
 export default App;
