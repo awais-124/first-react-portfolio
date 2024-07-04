@@ -5,7 +5,8 @@ import FooterLinks from './FooterLinks';
 
 import { FaFacebookF } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
-import { IoLogoTwitter } from 'react-icons/io';
+import { TfiLinkedin } from 'react-icons/tfi';
+import { FaGithub } from 'react-icons/fa6';
 
 import LOGO from '../../assets/logo.png';
 
@@ -17,14 +18,23 @@ const Footer = () => {
       </a>
       <FooterLinks />
       <div className="footer__socials">
-        <a href="https://www.facebook.com/profile.php?id=100031103824349">
+        <a
+          href="https://www.linkedin.com/in/muhammad-awais-05a019247/"
+          target="blank"
+        >
+          <TfiLinkedin />
+        </a>
+        <a href="https://github.com/awais-124" target="blank">
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100031103824349"
+          target="blank"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://www.instagram.com/awaismalik_999/">
+        <a href="https://www.instagram.com/awaismalik_999/" target="blank">
           <FiInstagram />
-        </a>
-        <a href="https://twitter.com/Muhamma99362556">
-          <IoLogoTwitter />
         </a>
       </div>
       <div className="footer__copyright">

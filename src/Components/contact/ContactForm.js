@@ -19,7 +19,10 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          if (result.text === "OK") alert("Email Sent Successfully!");
+          if (result.text === 'OK')
+            alert(
+              'Email has been sent successfully! You will be replied asap.'
+            );
         },
         (error) => {
           alert(error.text);

@@ -10,9 +10,12 @@ const Services = () => {
       <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container services__container">
-        <ServicesCard heading="App Development" points={ServicesContent.app} />
+        <ServicesCard
+          heading="Application Development"
+          points={ServicesContent.app}
+        />
         <ServicesCard heading="Web Development" points={ServicesContent.web} />
-        <ServicesCard heading="Database Design" points={ServicesContent.db} />
+        <ServicesCard heading="Graphic Designing" points={ServicesContent.gd} />
       </div>
     </section>
   );

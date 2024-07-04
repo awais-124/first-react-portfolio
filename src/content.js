@@ -15,7 +15,7 @@ import IMG6 from './assets/portfolio6.jpg';
 /*********************************** ABOUT CONTENT ************************************/
 
 const AboutContent =
-  'Experienced MERN Developer excelling in React, JavaScript, and NodeJS. Adept in cutting-edge web frameworks for dynamic user interfaces, with a strong portfolio spanning websites, web-based apps, and Android apps. Accomplished in both React and React-Native, backed by a track record of successfully completed projects';
+  "I'm a Software Engineer specializing in Application Development with strong expertise in React Native, React, and JavaScript. I excel in problem-solving with a deep understanding of Data Structures and Algorithms. I thrive in challenging environments and continually expand my knowledge, exploring Machine Learning and AI concepts. As a dedicated and hardworking individual, I apply new technologies to craft innovative solutions. With a proven track record of successful projects during my university studies, I am accomplished in both React and React Native. Beyond my technical skills, I enjoy playing video games like Valorant and COD, and I consistently learn new IT concepts daily. I am actively seeking remote, part-time opportunities as an App/Web Developer, aiming to balance work with my studies while contributing my skills to the ever-evolving tech landscape.";
 
 /***********************************TESTIMONIAL CONTENT ************************************/
 const TestimonialContent = [
@@ -31,7 +31,7 @@ const TestimonialContent = [
     _name: 'Muhammad Ali',
     image: avatar2,
     review:
-      'Exceptional database design! Their expertise optimized our data management, enhancing efficiency across our systems.',
+      'A Unique and Creative solution provided by him for my Brand. Their logos designs well-crafted with my business needs.',
   },
   {
     id: 3,
@@ -51,20 +51,23 @@ const TestimonialContent = [
 
 /***********************************SERVICES CONTENT ************************************/
 const ServicesContent = {
-  db: [
-    'Structured data organization.',
-    'Efficient querying and data retrieval',
-    'Scalable architecture for future growth',
-    'Data security and privacy measures',
-    'Normalization to eliminate data redundancy',
+  gd: [
+    'Creative and innovative design concepts.',
+    'Brand identity development.',
+    'High-quality print and digital media design.',
+    'User-centric UI/UX design.',
+    'Custom illustrations and graphics.',
+    'Logo and Banner Designs',
   ],
   app: [
     'Cross-platform app solutions.',
-    'User-friendly interfaces for enhanced engagement.',
-    'Streamlined coding for efficient performance.',
-    'Real-time updates and synchronization.',
-    'Robust backend systems for data management.',
+    'User-friendly interfaces.',
+    'Optimized coding for efficient performance.',
+    'Continuous integration and deployment.',
+    'Responsive interfaces.',
     'In-app purchase and payment gateways.',
+    'Robust back-end integration.',
+    'Enhanced security features.',
   ],
   web: [
     'Responsive, user-focused websites.',
@@ -73,6 +76,8 @@ const ServicesContent = {
     'Integration with third-party APIs and services.',
     'Mobile-responsive layouts for various devices.',
     'Fast loading times and smooth navigation.',
+    'Custom content management systems.',
+    'Advanced analytics and tracking integration.',
   ],
 };
 
@@ -124,25 +129,47 @@ const PortfolioContent = [
 
 /***********************************EXPERIENCE CONTENT ************************************/
 const ExperienceContent = {
+  languages: {
+    title: 'Programming Languages',
+    details: [
+      { title: 'Javascript', level: 'Intermediate' },
+      { title: 'Python', level: 'Intermediate' },
+      { title: 'C++', level: 'Experienced' },
+      { title: 'SQL', level: 'Intermediate' },
+      { title: 'PHP', level: 'Beginner' },
+      { title: 'Assembly', level: 'Intermediate' },
+    ],
+  },
   frontend: {
-    title: 'FrontEnd Development',
+    title: 'Frontend Technologies',
     details: [
       { title: 'HTML', level: 'Experienced' },
       { title: 'CSS', level: 'Experienced' },
-      { title: 'Javascript', level: 'Experienced' },
-      { title: 'React', level: 'Experienced' },
+      { title: 'React Native', level: 'Intermediate' },
+      { title: 'React', level: 'Intermediate' },
+      { title: 'TailwindCSS', level: 'Beginner' },
       { title: 'Bootstrap', level: 'Experienced' },
     ],
   },
   backend: {
-    title: 'Backend Development',
+    title: 'Backend Technologies',
     details: [
-      { title: 'Node JS', level: 'Intermediate' },
+      { title: 'NodeJS', level: 'Intermediate' },
+      { title: 'Firebase', level: 'Intermediate' },
+      { title: 'ExpressJS', level: 'Intermediate' },
       { title: 'MongoDB', level: 'Intermediate' },
-      { title: 'MySQL', level: 'Experienced' },
-      { title: 'PHP', level: 'Intermediate' },
-      { title: 'Python', level: 'Basic' },
-      { title: 'C++', level: 'Experienced' },
+      { title: 'MySQL', level: 'Intermediate' },
+    ],
+  },
+  libraries: {
+    title: 'Libraries',
+    details: [
+      { title: 'STL', level: 'Experienced' },
+      { title: 'Numpy', level: 'Beginner' },
+      { title: 'Pandas', level: 'Beginner' },
+      { title: 'PyCharm', level: 'Beginner' },
+      { title: 'Tensorflow', level: 'Beginner' },
+      { title: 'PyTorch', level: 'Beginner' },
     ],
   },
 };

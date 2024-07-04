@@ -1,20 +1,12 @@
 import React from 'react';
 
 const CTA = () => {
-  const Helper = () => {
-    alert('Abhi nhi bnaaye!');
-  };
-
   return (
     <div className="cta">
-      <a href="#home" className="btn" onClick={Helper}>
+      <a href="/cv.pdf" className="btn" download>
         Download CV
       </a>
-      <a
-        href="#contact"
-        className="btn btn-primary
-      "
-      >
+      <a href="#contact" className="btn btn-primary">
         Let's Talk
       </a>
     </div>
