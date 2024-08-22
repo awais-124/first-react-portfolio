@@ -49,10 +49,15 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid var(--color-white);
   resize: none;
   color: var(--color-white);
 }
+
+input::placeholder, textarea::placeholder{
+  color: var(--color-white);
+}
+
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES e.g TABLETS) ============*/
 @media screen and (max-width: 1024px) {

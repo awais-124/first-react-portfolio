@@ -86,7 +86,7 @@ const PortfolioContent = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'CipherChat - A Secure Messaging App',
     github: 'https://github.com',
     liveDemo: 'https://dribble.com/Alien_pixels',
   },
