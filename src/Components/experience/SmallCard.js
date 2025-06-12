@@ -1,9 +1,9 @@
-import React from "react";
-import "./Experience.css";
+import React from 'react';
+import './Experience.css';
 
-import { BsPatchCheckFill } from "react-icons/bs";
+import { BsPatchCheckFill } from 'react-icons/bs';
 
-const SmallCard = (props) => {
+const SmallCard = props => {
   return (
     <div className="experience__frontend">
       <h3>{props.title}</h3>

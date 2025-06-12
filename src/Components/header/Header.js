@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <header id="home" className="section">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        {/* <h5>Hello I'm</h5> */}
         <h1>Muhammad Awais</h1>
-        <h5 className="text-light">Software Engineer</h5>
+        <h4 className="text-light">Computer Scientist</h4>
         <CTA />
         <HeaderSocials />
         <div className="me">

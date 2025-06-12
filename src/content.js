@@ -12,10 +12,38 @@ import IMG4 from './assets/portfolio4.jpg';
 import IMG5 from './assets/portfolio5.png';
 import IMG6 from './assets/portfolio6.jpg';
 
+/* ACADEMIC SERVICES IMAGES IMPORTS */
+import IMAGE1 from './assets/services/coding.jpg';
+import IMAGE2 from './assets/services/DSA.jpg';
+import IMAGE3 from './assets/services/OOP.jpg';
+import IMAGE4 from './assets/services/uml-ooad.jpg';
+import IMAGE5 from './assets/services/software-artifacts.jpg';
+import IMAGE6 from './assets/services/documentation.jpg';
+import IMAGE7 from './assets/services/db-design.jpg';
+import IMAGE8 from './assets/services/AI.jpg';
+import IMAGE9 from './assets/services/problem-solving.jpg';
+import IMAGE10 from './assets/services/tutor.jpg';
+import IMAGE11 from './assets/services/web-2.jpg';
+import IMAGE12 from './assets/services/app-dev.jpg';
+
 /*********************************** ABOUT CONTENT ************************************/
 
-const AboutContent =
-  "I'm a Software Engineer specializing in Application Development with strong expertise in React Native, React, and JavaScript. I excel in problem-solving with a deep understanding of Data Structures and Algorithms. I thrive in challenging environments and continually expand my knowledge, exploring Machine Learning and AI concepts. As a dedicated and hardworking individual, I apply new technologies to craft innovative solutions. With a proven track record of successful projects during my university studies, I am accomplished in both React and React Native. Beyond my technical skills, I enjoy playing video games like Valorant and COD, and I consistently learn new IT concepts daily. I am actively seeking remote, part-time opportunities as an App/Web Developer, aiming to balance work with my studies while contributing my skills to the ever-evolving tech landscape.";
+const AboutContent = {
+  education: {
+    title: 'Education',
+    subTitle: 'BCS - CUST Islamabad',
+  },
+  projects: {
+    title: 'Projects',
+    subTitle: '10+ Completed Projects',
+  },
+  experience: {
+    title: 'Experience',
+    subTitle: '3 Yrs Freelance Experience',
+  },
+  summary:
+    "I'm Muhammad Awais, a Computer Scientist from Rawalpindi, Pakistan, passionate about delivering innovative and impactful solutions. With a strong foundation in mobile app development, full-stack web development, data analysis and machine learning, I specialize in crafting intuitive, scalable, and secure applications that solve real-world problems. My services include building seamless mobile apps using React Native and Flutter, developing robust web platforms with JavaScript, PHP, Laravel, and Next.js, and leveraging machine learning, AI, and LLMs to create data-driven solutions. I thrive in dynamic environments, drawing on my expertise in programming, data structures, algorithms, and emerging technologies to deliver user-centric products. My portfolio showcases a proven track record of successful projects, detailed in the Projects section below, demonstrating my ability to meet diverse client needs. As an avid learner and competitive programmer with experience in contests like ICPC, I continuously explore cutting-edge tools like Flutter and advanced AI techniques to stay at the forefront of technology. I’m eager to collaborate on remote opportunities, offering my skills and services (listed below) to drive innovation and deliver value to your business.",
+};
 
 /***********************************TESTIMONIAL CONTENT ************************************/
 const TestimonialContent = [
@@ -50,34 +78,140 @@ const TestimonialContent = [
 ];
 
 /***********************************SERVICES CONTENT ************************************/
-const ServicesContent = {
-  gd: [
-    'Creative and innovative design concepts.',
-    'Brand identity development.',
-    'High-quality print and digital media design.',
-    'User-centric UI/UX design.',
-    'Custom illustrations and graphics.',
-    'Logo and Banner Designs',
-  ],
-  app: [
-    'Cross-platform app solutions.',
-    'User-friendly interfaces.',
-    'Optimized coding for efficient performance.',
-    'Continuous integration and deployment.',
-    'Responsive interfaces.',
-    'In-app purchase and payment gateways.',
-    'Robust back-end integration.',
-    'Enhanced security features.',
-  ],
-  web: [
-    'Responsive, user-focused websites.',
-    'Optimized for performance and SEO.',
-    'E-commerce functionality for online businesses.',
-    'Integration with third-party APIs and services.',
-    'Mobile-responsive layouts for various devices.',
-    'Fast loading times and smooth navigation.',
-    'Custom content management systems.',
-    'Advanced analytics and tracking integration.',
+const ServicesContent = [
+  {
+    title: 'Mobile App Development',
+    details: [
+      'Mobile apps that work smoothly on both Android and iPhone.',
+      'Built-in security to keep your data safe.',
+      'Easy-to-use designs that look great on any screen.',
+      'Live updates and real-time features for a smooth experience.',
+      'Cloud-based solutions to handle more users as you grow.',
+      'Fast and reliable performance on all devices.',
+      'Custom designs to match your brand and needs.',
+      'Ongoing support and updates to keep your app running smoothly.',
+    ],
+  },
+  {
+    title: 'Web Development',
+    details: [
+      'Websites that work perfectly on phones, tablets, and computers.',
+      'Complete website solutions, from the front page to the backend.',
+      'Secure storage for your website data.',
+      "Interactive websites focused on your users' needs.",
+      'Built to rank well on search engines like Google.',
+      'Add features like maps, payments, or chat easily.',
+      'Custom systems so you can update content anytime.',
+      'Fast-loading pages that work great on all screen sizes.',
+    ],
+  },
+  {
+    title: 'Smart AI & Automation',
+    details: [
+      'AI-powered tools tailored to your business needs.',
+      'Smart systems trained for better accuracy and results.',
+      'Advanced search features that improve answers and performance.',
+      'Clear visual reports to help you understand your data.',
+      'Smart features that understand and respond to human language.',
+      'Tested and reliable AI solutions ready for real-world use.',
+      'Automation tools to save time and boost productivity.',
+      'Flexible AI solutions that grow with your business.',
+    ],
+  },
+  {
+    title: 'Database Solutions',
+    details: [
+      'Well-planned data storage that grows with your business.',
+      'Clear diagrams to show how your data is organized.',
+      'Structured systems that keep everything running fast and smooth.',
+      'Safe and secure places to store important information.',
+      'Organized data for better performance and accuracy.',
+      'Tailored data solutions that match your business goals.',
+      'Speed improvements so your systems respond quickly.',
+    ],
+  },
+  {
+    title: 'Design & Branding',
+    details: [
+      'User-friendly designs for websites and apps.',
+      'Eye-catching posters, banners, and ads.',
+      'Logos that clearly represent your brand.',
+      'Smart layouts focused on what users want.',
+      'Custom-made visuals for both online and print use.',
+      'Consistent style across all your branding.',
+      'Designs that look great on all devices.',
+    ],
+  },
+  {
+    title: 'Software Planning & Documentation',
+    details: [
+      'Clear documents that explain your software step by step.',
+      'Visual charts that show how your system works.',
+      'Organized layouts for how your software is built.',
+      'Flow diagrams that explain how data flows.',
+      'Interactive reports that mix text, visuals, and code.',
+      'Polished documents ready for sharing or delivery.',
+      'Professional visual materials for technical understanding.',
+    ],
+  },
+];
+
+/***********************************ACADEMICS CONTENT ************************************/
+
+const AcademicsContent = {
+  title: 'Academic Support for CS/IT Students',
+  subTitle: 'Personalized Guidance from an Experienced Computer Scientist',
+  details: [
+    {
+      image: IMAGE1,
+      detail: 'Programming assignment help in JavaScript, Python, C++.',
+    },
+    {
+      image: IMAGE2,
+      detail: 'Data Structures and Algorithms (DSA) problem-solving support.',
+    },
+    {
+      image: IMAGE3,
+      detail: 'Object-Oriented Programming (OOP) project guidance.',
+    },
+    {
+      image: IMAGE4,
+      detail:
+        'Object-Oriented Analysis and Design (OOAD) artifact development.',
+    },
+    {
+      image: IMAGE5,
+      detail: 'Software Engineering models, including UML diagrams.',
+    },
+    {
+      image: IMAGE6,
+      detail: 'Comprehensive software documentation for projects.',
+    },
+    {
+      image: IMAGE7,
+      detail: 'Database design and ERD creation for assignments.',
+    },
+    {
+      image: IMAGE8,
+      detail: 'Model training and evaluation with detailed reports.',
+    },
+    {
+      image: IMAGE9,
+      detail: 'Competitive programming strategies for contests like ICPC.',
+    },
+    {
+      image: IMAGE10,
+      detail: 'Customized tutoring for CS/IT course concepts.',
+    },
+    {
+      image: IMAGE11,
+      detail:
+        'Learn web development from scratch (HTML, CSS, JS, React, and more).',
+    },
+    {
+      image: IMAGE12,
+      detail: 'Guided mobile app development using Flutter and React Native.',
+    },
   ],
 };
 
@@ -128,58 +262,82 @@ const PortfolioContent = [
 ];
 
 /***********************************EXPERIENCE CONTENT ************************************/
-const ExperienceContent = {
-  languages: {
+
+const Skills = [
+  {
     title: 'Programming Languages',
     details: [
-      { title: 'Javascript', level: 'Intermediate' },
-      { title: 'Python', level: 'Intermediate' },
+      { title: 'JavaScript', level: 'Experienced' },
+      { title: 'Python', level: 'Experienced' },
       { title: 'C++', level: 'Experienced' },
+      { title: 'PHP', level: 'Intermediate' },
       { title: 'SQL', level: 'Intermediate' },
-      { title: 'PHP', level: 'Beginner' },
-      { title: 'Assembly', level: 'Intermediate' },
+      { title: 'Java', level: 'Beginner' },
     ],
   },
-  frontend: {
-    title: 'Frontend Technologies',
+  {
+    title: 'Frontend & Mobile Development',
     details: [
-      { title: 'HTML', level: 'Experienced' },
-      { title: 'CSS', level: 'Experienced' },
-      { title: 'React Native', level: 'Intermediate' },
       { title: 'React', level: 'Intermediate' },
-      { title: 'TailwindCSS', level: 'Beginner' },
-      { title: 'Bootstrap', level: 'Experienced' },
+      { title: 'React Native', level: 'Intermediate' },
+      { title: 'Next.js', level: 'Beginner' },
+      { title: 'Flutter', level: 'Beginner' },
+      { title: 'Bootstrap', level: 'Intermediate' },
+      { title: 'TailwindCSS', level: 'Intermediate' },
     ],
   },
-  backend: {
-    title: 'Backend Technologies',
+  {
+    title: 'Backend & Databases',
     details: [
-      { title: 'NodeJS', level: 'Intermediate' },
+      { title: 'Node.js', level: 'Intermediate' },
+      { title: 'Laravel', level: 'Intermediate' },
+      { title: 'Express.js', level: 'Intermediate' },
       { title: 'Firebase', level: 'Intermediate' },
-      { title: 'ExpressJS', level: 'Intermediate' },
-      { title: 'MongoDB', level: 'Intermediate' },
-      { title: 'MySQL', level: 'Intermediate' },
+      { title: 'MySQL', level: 'Experienced' },
+      { title: 'Db Design', level: 'Intermediate' },
     ],
   },
-  libraries: {
-    title: 'Libraries',
+  {
+    title: 'Machine Learning & AI',
     details: [
-      { title: 'STL', level: 'Experienced' },
-      { title: 'Numpy', level: 'Beginner' },
-      { title: 'Pandas', level: 'Beginner' },
-      { title: 'PyCharm', level: 'Beginner' },
-      { title: 'Tensorflow', level: 'Beginner' },
-      { title: 'PyTorch', level: 'Beginner' },
+      { title: 'NumPy', level: 'Experienced' },
+      { title: 'Pandas', level: 'Experienced' },
+      { title: 'TensorFlow', level: 'Beginner' },
+      { title: 'Matplotlib', level: 'Beginner' },
+      { title: 'Scikit-Learn', level: 'Beginner' },
+      { title: 'NLTK', level: 'Intermediate' },
     ],
   },
-};
+  {
+    title: 'Tools & Platforms',
+    details: [
+      { title: 'VS Code', level: 'Experienced' },
+      { title: 'Android Studio', level: 'Intermediate' },
+      { title: 'Git', level: 'Intermediate' },
+      { title: 'GitHub', level: 'Intermediate' },
+      { title: 'Google Colab', level: 'Beginner' },
+      { title: 'Hugging Face', level: 'Beginner' },
+    ],
+  },
+  {
+    title: 'Design & Productivity',
+    details: [
+      { title: 'Figma', level: 'Intermediate' },
+      { title: 'Adobe Illustrator', level: 'Intermediate' },
+      { title: 'Canva', level: 'Intermediate' },
+      { title: 'Wordpress', level: 'Beginner' },
+      { title: 'Adobe Photoshop', level: 'Beginner' },
+      { title: 'MS Office', level: 'Expert' },
+    ],
+  },
+];
 
 /* ====================== CONTACT CONTENT ======================= */
 const ContactContent = {
   emailTo: {
     title: 'Email',
     name: 'awais14940@gmail.com',
-    link: 'mailto:awis14940@gmail.com',
+    link: 'mailto:awais14940@gmail.com',
   },
   messenger: {
     title: 'Messenger',
@@ -199,6 +357,7 @@ export {
   TestimonialContent,
   ServicesContent,
   PortfolioContent,
-  ExperienceContent,
+  Skills,
   ContactContent,
+  AcademicsContent,
 };

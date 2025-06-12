@@ -41,21 +41,34 @@ html {
     background-size: 100% 100%;
   }
   100% {
-    background-size: 150% 150%;
+    background-size: 200% 200%;
   }
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: linear-gradient(rgba(121, 121, 121, 0.1), rgba(121, 121, 121, 0.1)),
+  background-color: var(--color-bg);
+  background-image: linear-gradient(
+      rgba(121, 121, 121, 0.1),
+      rgba(121, 121, 121, 0.1)
+    ),
     url('../src/assets/background-image.jpg');
+  /* background-image: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(218, 218, 218, 0.6) 15%,
+    rgba(187, 187, 187, 0.5) 30%,
+    rgba(131, 131, 131, 0.6) 55%,
+    rgba(88, 88, 88, 0.65) 75%,
+    rgba(0, 0, 0, 0.7) 100%
+    ); */
+  /* background: #000122; */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  animation: expand 20s infinite;
+  /* animation: expand 20s infinite; */
 }
 
 /*=============== GENERAL STYLES =================*/

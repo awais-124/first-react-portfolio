@@ -23,21 +23,21 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <MdCastForEducation className="about__icon" />
-              <h5>Education</h5>
-              <small>BSCS - CUST Islamabad</small>
+              <h5>{AboutContent.education.title}</h5>
+              <small>{AboutContent.education.subTitle}</small>
             </article>
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Practical Experience</small>
+              <h5>{AboutContent.experience.title}</h5>
+              <small>{AboutContent.experience.subTitle}</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed Projects</small>
+              <h5>{AboutContent.projects.title}</h5>
+              <small>{AboutContent.projects.subTitle}</small>
             </article>
           </div>
-          <p>{AboutContent}</p>
+          <p>{AboutContent.summary}</p>
           {/* <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a> */}

@@ -12,6 +12,7 @@ import Portfolio from './Components/portfolio/Portfolio';
 import Testimonial from './Components/testimonial/Testimonial';
 import Contact from './Components/contact/Contact';
 import Services from './Components/Services/Services';
+import Academics from './Components/academics/academics';
 /*************************************/
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <About />
       <Experience />
       <Services />
+      <Academics />
       <Portfolio />
       <Testimonial />
       <Contact />

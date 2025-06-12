@@ -1,16 +1,19 @@
 .about__container {
+  margin-top: 80px;
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
 }
 
 .about__me {
+  margin-top: 150px;
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: transparent;
   display: grid;
   place-items: center;
+  height: fit-content;
   /* overflow: hidden; */
 }
 
