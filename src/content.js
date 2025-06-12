@@ -49,7 +49,7 @@ const AboutContent = {
 const TestimonialContent = [
   {
     id: 1,
-    _name: 'Ernest Raw',
+    _name: 'Nimra Imtiaz',
     image: avatar1,
     review:
       'Impressed by their web app development skills! They transformed our vision into a user-friendly reality. Great job!',
@@ -63,14 +63,14 @@ const TestimonialContent = [
   },
   {
     id: 3,
-    _name: 'David Beggar',
+    _name: 'Raja Adnan',
     image: avatar3,
     review:
       'Professionalism at its best. Their web solutions brought a new level of functionality to our projects. Highly recommended!',
   },
   {
     id: 4,
-    _name: 'Emily Jade',
+    _name: 'Emaan Zahra',
     image: avatar4,
     review:
       'Outstanding teamwork in app development. Their dedication to quality and detail resulted in a seamless user experience.',
@@ -221,43 +221,73 @@ const PortfolioContent = [
     id: 1,
     image: IMG1,
     title: 'CipherChat - A Secure Messaging App',
-    github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    github: 'https://github.com/awais-124/react-native-chat-app',
+    description:
+      'CipherChat is a privacy-first React Native messaging app that offers end-to-end encrypted communication. It features real-time messaging using Firebase, user authentication, media sharing, and sleek UI components. Designed for mobile-first use, the app emphasizes performance and security, making it suitable for private conversations or team communication.',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts Templates and infographics in figma',
-    github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    title: 'JobSpark - Web Application built using PHP and MySQL',
+    github: 'https://github.com/awais-124/JobSpark---PHP-SQL',
+    description:
+      'JobSpark is a job portal built with PHP and MySQL that connects job seekers with recruiters. It supports user registration, job postings, auto-generated resumes, profile management, search filters, and admin analytics. The backend uses structured SQL queries, and the frontend leverages custom CSS and Blade templates.',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma Dashboard UI Kit for data design web apps',
+    title: 'Car Rental Web App using PHP and SQL',
     github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    description:
+      'A car rental management system that allows customers to browse, book, and pay for vehicles. Admins can add new cars, manage bookings, and view reports. Built with PHP and MySQL, it features a responsive UI, real-time availability checking, and email-based booking confirmations.',
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining Tasks and Tracking progress',
-    github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    title: 'Student Portal for Students, Teachers, and Admins',
+    github: 'https://github.com/awais-124/react-student-portal',
+    description:
+      'A full-stack student portal built with React and Firebase. It provides role-based access for students, teachers, and admins to manage grades, attendance, assignments, and feedback. Teachers can upload materials, students can view progress, and admins can manage users and analytics.',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Graphs, Charts and Responsive Dashbords',
-    github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    title: 'Network Intrusion Detection System, ML-based project',
+    github: 'https://github.com/awais-124/intrusion-detection-using-ml',
+    description:
+      'An ML-based intrusion detection system trained on the NSL-KDD dataset. It uses Scikit-learn models like Random Forests and SVM to classify network traffic into normal or attack types. The system outputs detection reports and model accuracy, and includes preprocessing pipelines for feature engineering.',
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Material UI kit for web apps',
-    github: 'https://github.com',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    title: 'Payroll Management System using OOP with C++',
+    github: 'https://github.com/awais-124/OOP_Project',
+    description:
+      'A console-based payroll system developed in C++ applying Object-Oriented Programming principles. It includes employee data management, salary calculation, overtime handling, and payslip generation. Designed to showcase class inheritance, file handling, and data encapsulation.',
+  },
+  {
+    id: 7,
+    image: IMG4,
+    title: 'Presentation Studio - Sell your slides online',
+    github: 'https://github.com/awais-124/presentation-studio',
+    description:
+      'A digital marketplace where users can upload, sell, or buy presentation slides. The platform uses PHP, MySQL, and JavaScript with Stripe integration for payments. It features user authentication, file previews, secure downloads, and a dashboard for tracking sales and purchases.',
+  },
+  {
+    id: 8,
+    image: IMG5,
+    title: 'Fine-tuned DistilBert for Sentiment Analysis',
+    github: 'https://github.com/awais-124/fine-tuning-distilbert',
+    description:
+      "A machine learning project that fine-tunes HuggingFace's DistilBERT transformer for sentiment classification on custom text datasets. The notebook includes tokenization, training loop, evaluation metrics, and visualization of attention layers for interpretation.",
+  },
+  {
+    id: 9,
+    image: IMG6,
+    title: 'Wallet App - Your best choice',
+    github: 'https://github.com/awais-124/Wallet-App',
+    description:
+      'A mobile-friendly wallet app that allows users to manage expenses, set budgets, and track transactions. Built with React Native and Firebase, it includes biometric login, data visualization charts, dark mode, and local push notifications for spending alerts.',
   },
 ];
 

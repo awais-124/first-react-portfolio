@@ -17,13 +17,13 @@ const HeaderSocials = () => {
       <a href="https://github.com/awais-124" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a
+      {/* <a
         href="https://toyota-i-concept-awais.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
         <AiOutlineCar />
-      </a>
+      </a> */}
     </div>
   );
 };

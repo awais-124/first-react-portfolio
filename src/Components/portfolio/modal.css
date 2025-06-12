@@ -1,0 +1,77 @@
+/* Modal.css */
+.modal__overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 400ms ease;
+}
+
+.modal__content {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  animation: slideUp 400ms ease;
+}
+
+.modal__details h2 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.modal__details p {
+  margin-bottom: 1.5rem;
+  color: var(--color-light);
+}
+
+.modal__actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 2rem;
+  color: var(--color-white);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.modal__close:hover {
+  color: var(--color-primary);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

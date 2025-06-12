@@ -9,6 +9,31 @@
   transition: var(--transition);
 }
 
+.academic__container:hover {
+  background: transparent;
+  cursor: default;
+}
+
+/* Responsive Grid Columns */
+@media (max-width: 1200px) {
+  .academic__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .academic__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .academic__container {
+    grid-template-columns: 1fr;
+    padding: 1.5rem 1rem;
+  }
+}
+
 .academic-card {
   background: var(--color-primary);
   color: black;
