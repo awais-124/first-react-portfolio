@@ -18,7 +18,12 @@ const Modal = ({ isOpen, onClose, project }) => {
           <h2>{project.title}</h2>
           <p>{project.description}</p>
           <div className="modal__actions">
-            <a href={project.github} className="btn" target="_blank">
+            <a
+              href={project.github}
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               View Code
             </a>
           </div>

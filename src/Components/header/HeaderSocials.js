@@ -2,7 +2,6 @@ import React from 'react';
 
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { AiOutlineCar } from 'react-icons/ai';
 
 const HeaderSocials = () => {
   return (

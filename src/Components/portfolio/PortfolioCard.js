@@ -9,10 +9,14 @@ const PortfolioCard = ({ content, onDetailsClick }) => {
       </div>
       <h3>{item.title}</h3>
       <div className="portfolio__item-cta">
-        <a href={item.github} className="btn" target="_blank">
+        <a href={item.github} className="btn" target="_blank" rel="noreferrer">
           Get Code
         </a>
-        <a className="btn btn-primary" onClick={() => onDetailsClick(item)}>
+        <a
+          className="btn btn-primary"
+          href="./PortfolioCard.js"
+          onClick={() => onDetailsClick(item)}
+        >
           Details
         </a>
       </div>
