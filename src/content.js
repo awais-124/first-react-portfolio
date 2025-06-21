@@ -5,12 +5,15 @@ import avatar3 from './assets/avatar3.jpg';
 import avatar4 from './assets/avatar4.jpg';
 
 /* PORTFOLIO IMAGES IMPORTS */
-import IMG1 from './assets/portfolio1.jpg';
-import IMG2 from './assets/portfolio2.jpg';
-import IMG3 from './assets/portfolio3.jpg';
-import IMG4 from './assets/portfolio4.jpg';
-import IMG5 from './assets/portfolio5.png';
-import IMG6 from './assets/portfolio6.jpg';
+import IMG1 from './assets/projects/cipherchat.png';
+import IMG2 from './assets/projects/jobspark.png';
+import IMG3 from './assets/projects/car-rental.png';
+import IMG4 from './assets/projects/sp.png';
+import IMG5 from './assets/projects/nids.png';
+import IMG6 from './assets/projects/payroll.png';
+import IMG7 from './assets/projects/ps.png';
+import IMG8 from './assets/projects/finetune.png';
+import IMG9 from './assets/projects/bw.png';
 
 /* ACADEMIC SERVICES IMAGES IMPORTS */
 import IMAGE1 from './assets/services/coding.jpg';
@@ -234,12 +237,12 @@ const PortfolioContent = [
       'JobSpark is a job portal built with PHP and MySQL that connects job seekers with recruiters. It supports user registration, job postings, auto-generated resumes, profile management, search filters, and admin analytics. The backend uses structured SQL queries, and the frontend leverages custom CSS and Blade templates.',
   },
   {
-    id: 3,
-    image: IMG3,
-    title: 'Car Rental Web App using PHP and SQL',
-    github: 'https://github.com',
+    id: 9,
+    image: IMG9,
+    title: 'Wallet App - Your best choice',
+    github: 'https://github.com/awais-124/Wallet-App',
     description:
-      'A car rental management system that allows customers to browse, book, and pay for vehicles. Admins can add new cars, manage bookings, and view reports. Built with PHP and MySQL, it features a responsive UI, real-time availability checking, and email-based booking confirmations.',
+      'A mobile-friendly wallet app that allows users to manage expenses, set budgets, and track transactions. Built with React Native and Firebase, it includes biometric login, data visualization charts, dark mode, and local push notifications for spending alerts.',
   },
   {
     id: 4,
@@ -248,6 +251,22 @@ const PortfolioContent = [
     github: 'https://github.com/awais-124/react-student-portal',
     description:
       'A full-stack student portal built with React and Firebase. It provides role-based access for students, teachers, and admins to manage grades, attendance, assignments, and feedback. Teachers can upload materials, students can view progress, and admins can manage users and analytics.',
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Car Rental Web App using PHP and SQL',
+    github: 'https://github.com',
+    description:
+      'A car rental management system that allows customers to browse, book, and pay for vehicles. Admins can add new cars, manage bookings, and view reports. Built with PHP and MySQL, it features a responsive UI, real-time availability checking, and email-based booking confirmations.',
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Presentation Studio - Sell your slides online',
+    github: 'https://github.com/awais-124/presentation-studio',
+    description:
+      'A digital marketplace where users can upload, sell, or buy presentation slides. The platform uses PHP, MySQL, and JavaScript with Stripe integration for payments. It features user authentication, file previews, secure downloads, and a dashboard for tracking sales and purchases.',
   },
   {
     id: 5,
@@ -266,28 +285,12 @@ const PortfolioContent = [
       'A console-based payroll system developed in C++ applying Object-Oriented Programming principles. It includes employee data management, salary calculation, overtime handling, and payslip generation. Designed to showcase class inheritance, file handling, and data encapsulation.',
   },
   {
-    id: 7,
-    image: IMG4,
-    title: 'Presentation Studio - Sell your slides online',
-    github: 'https://github.com/awais-124/presentation-studio',
-    description:
-      'A digital marketplace where users can upload, sell, or buy presentation slides. The platform uses PHP, MySQL, and JavaScript with Stripe integration for payments. It features user authentication, file previews, secure downloads, and a dashboard for tracking sales and purchases.',
-  },
-  {
     id: 8,
-    image: IMG5,
+    image: IMG8,
     title: 'Fine-tuned DistilBert for Sentiment Analysis',
     github: 'https://github.com/awais-124/fine-tuning-distilbert',
     description:
       "A machine learning project that fine-tunes HuggingFace's DistilBERT transformer for sentiment classification on custom text datasets. The notebook includes tokenization, training loop, evaluation metrics, and visualization of attention layers for interpretation.",
-  },
-  {
-    id: 9,
-    image: IMG6,
-    title: 'Wallet App - Your best choice',
-    github: 'https://github.com/awais-124/Wallet-App',
-    description:
-      'A mobile-friendly wallet app that allows users to manage expenses, set budgets, and track transactions. Built with React Native and Firebase, it includes biometric login, data visualization charts, dark mode, and local push notifications for spending alerts.',
   },
 ];
 
